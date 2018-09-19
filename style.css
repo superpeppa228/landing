@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto+Slab', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(img/bcgrheader.img.jpg);
+padding:0px 0 260px 0px;
+    display:block;
+}
+.logo{
+    margin-left:229px;
+    margin-top:40px;
+}
+nav{
+        margin-right:200px;
+    margin-top:43px;
+    float:right;
+}
+nav li{
+    list-style-type: none;
+    display:inline-block;
+        padding: 0 15px 0 15px;
+}
+nav li a{
+font-family: Montserrat;
+color:  #ffffff;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+    text-decoration: none;
+}
+.greeting{
+    display:block;
+    width:582px;
+    margin-left:508px;
+    margin-top:264px;
+}
+header h1{
+    font-family: Montserrat;
+color:  #ffffff;
+font-size: 48px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+}
+header h2{
+    font-family: RobotoSlab;
+color:  #ffffff;
+font-size: 20px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    margin-top:30px;
+}
+
+.greeting a{
+    display:block;
+    width:180px;
+    height:26px;
+    margin: 50px auto 0 auto;
+    padding: 12px 0 12px 0 ;
+    text-decoration: none;
+    font-family: Montserrat;
+color:  #ffffff;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 28px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+    outline:1px solid;
+}
+.greeting a:hover{
+    display:block;
+    width:180px;
+    height:26px;
+    margin: 50px auto 0 auto;
+    padding: 12px 0 12px 0 ;
+    text-decoration: none;
+    font-family: Montserrat;
+    border-radius: 2px;
+background-color:  #ffffff;
+    color:#c0301c;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 28px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+    outline:1px solid;
+}
+.services{
+    background-color:  #ffffff;
+    display:block;
+}
+.services h2{
+    font-family: Montserrat;
+color:  #555555;
+font-size: 20px solid;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+    padding-top:99px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+      justify-content: center;
+  align-items: center;
+    margin:70px 215px 100px 215px;
+}
+.flex-container div{
+    margin:0 22px;
+      text-align: center;
+}
+.flex-container div h3{
+    font-family: Montserrat;
+color:  #555555;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+    margin-top:29px;
+}
+.flex-container div p{
+    font-family: RobotoSlab;
+color:  #555555;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+.services .flex-container div p{
+    margin-top:24px;
+}
+.line img{
+    display:block;
+    margin:29px auto;
+    border:#555555 1px solid;
+}
+.services p{
+    font-family: RobotoSlab;
+color:  #555555;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+.about{
+    background-color: #f8f8f8;
+}
+.about h2{
+    font-family: Montserrat;
+color:  #555555;
+font-size: 20px solid;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+    padding-top:99px;
+}
+.about p{
+    font-family: RobotoSlab;
+color:  #555555;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+.about .flex-container div p{
+    text-align:left;
+    font-family: RobotoSlab;
+color:  #555555;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+.about .flex-container div{
+    margin: 0 16px;
+}
+.about .flex-container figure{
+        padding-bottom:99px;
+}
+.flex-container figure h3{
+    font-family: Montserrat;
+color:  #555555;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.flex-container figure p{
+  font-family: RobotoSlab;
+color:  #555555;
+font-size: 13px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.works h2{
+    font-family: Montserrat;
+color:  #555555;
+font-size: 20px solid;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+    text-transform: uppercase;
+}
+.photo{
+    background-color: grey;
+    width:263px;
+    height:250px;
+}
+figure img:hover{
+    opacity:0.5;
+}
+
